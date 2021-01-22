@@ -15,6 +15,7 @@ export const LoggedOutRouter = () =>  {
   const onInvalid = () => {
     console.log('cant create an account');
   }
+  console.log('hey');
   return (
     <div>
       <h1>logged out</h1>
