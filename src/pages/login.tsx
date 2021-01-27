@@ -10,6 +10,7 @@ export const Login = () => {
   const { register, getValues, errors, handleSubmit } = useForm<ILoginForm>();
   const onSubmit = () => {
     console.log(getValues());
+    console.log('test');
   }
 
   return (
