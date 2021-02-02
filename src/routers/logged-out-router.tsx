@@ -4,7 +4,7 @@ import { CreateAccount } from '../pages/create-account';
 import { Login } from '../pages/login';
 
 export const LoggedOutRouter = () =>  {
-  console.log('hi');
+  console.log('ttest');
   return (
     <Router>
       <Switch>
